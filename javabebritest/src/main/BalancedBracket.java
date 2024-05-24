@@ -39,8 +39,8 @@ public class BalancedBracket {
         String str2 = "{ [ ( ] ) }";
         String str3 = " { ( ( [ ] ) [ ] ) [ ] }";
 
-        System.out.println("String 1 seimbang: " + isBalanced(str1));
-        System.out.println("String 2 seimbang: " + isBalanced(str2));
-        System.out.println("String 3 seimbang: " + isBalanced(str3));
+        System.out.println("String "+str1+" seimbang: " + isBalanced(str1));
+        System.out.println("String "+str2+" seimbang: " + isBalanced(str2));
+        System.out.println("String "+str3+" seimbang: " + isBalanced(str3));
     }
 }
